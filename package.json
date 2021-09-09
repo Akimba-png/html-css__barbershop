@@ -1,0 +1,24 @@
+{
+  "name": "barbershop-static",
+  "description": "Тренировочный проект от HTML Academy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/css/**/*.css\"",
+    "test": "npm run stylelint $$ npm run editorconfig",
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-htmlacademy": "^0.1.10"
+  },
+  "dependencies": {},
+  "editorconfig-cli": [
+    "source/*.html"
+  ]
+}
