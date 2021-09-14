@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Narrow"),
+    local("PTSans-Narrow"),
+    url("./../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff2")
+    format("woff2"),
+    url("./../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Narrow"),
+    local("PTSans-Narrow"),
+    url("./../../fonts/pt-sans-narrow-v12-latin_cyrillic-700.woff2")
+    format("woff2"),
+    url("./../../fonts/pt-sans-narrow-v12-latin_cyrillic-700.woff")
+    format("woff");
+}

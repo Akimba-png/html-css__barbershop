@@ -1,3 +1,5 @@
+@import "./blocks/fonts.css";
+
 .page {
-  color: #000000;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
