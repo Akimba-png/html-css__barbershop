@@ -1,0 +1,32 @@
+.page-body {
+  margin: 0;
+  padding: 0;
+  min-width: 940px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  background-image: url("./../../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+@media (min-resolution: 2dppx) {
+  .page-body {
+    background-image: url("./../../img/background@2x.png");
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

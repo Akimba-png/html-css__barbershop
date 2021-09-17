@@ -2,6 +2,7 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local("PT Sans Narrow"),
     local("PTSans-Narrow"),
     url("./../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff2")
@@ -14,6 +15,7 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local("PT Sans Narrow"),
     local("PTSans-Narrow"),
     url("./../../fonts/pt-sans-narrow-v12-latin_cyrillic-700.woff2")

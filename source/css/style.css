@@ -1,5 +1,7 @@
 @import "./blocks/fonts.css";
+@import "./blocks/colors.css";
+@import "./blocks/common.css";
 
-.page {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
-}
+/* header */
+@import "./blocks/main-header.css";
+@import "./blocks/sait-navigation.css";

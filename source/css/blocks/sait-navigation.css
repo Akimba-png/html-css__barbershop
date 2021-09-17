@@ -1,0 +1,14 @@
+.site-navigation__list {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.site-navigation__item {
+  margin-right: 40px;
+}
+
+.site-navigation__item:last-child {
+  margin-right: 0;
+}
