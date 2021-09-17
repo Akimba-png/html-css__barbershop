@@ -1,0 +1,27 @@
+.user-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  max-width: 250px;
+  list-style: none;
+}
+
+.user-navigation__link {
+  position: relative;
+  display: block;
+  padding: 26px 20px 26px 53px;
+}
+
+.user-navigation__link:hover {
+  background-color: var(--active-color);
+}
+
+.user-navigation__link::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  width: 14px;
+  height: 14px;
+  background-image: url("./../../img/login.svg");
+}

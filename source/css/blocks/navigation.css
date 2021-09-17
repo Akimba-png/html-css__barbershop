@@ -1,0 +1,16 @@
+.navigation {
+  background-color: var(--background-color);
+}
+
+.navigation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+}

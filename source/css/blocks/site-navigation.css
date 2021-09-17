@@ -1,0 +1,20 @@
+.site-navigation {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  max-width: 700px;
+  list-style: none;
+}
+
+.site-navigation__item {
+  position: relative;
+  align-self: center;
+}
+
+.site-navigation__link {
+  display: block;
+  padding: 26px 20px;
+}
+
+.site-navigation__link:hover {
+  background-color: var(--active-color);
+}

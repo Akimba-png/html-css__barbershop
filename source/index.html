@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Барбершоп Бородинский Статик</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body class="page-body">
-    <header class="main-header">
-      <div class="main-header__wrapper">
-        <a class="main-header__logo">
-          <img src="img/logo.svg" alt="Логотип Барбершоп Бородинский">
-        </a>
-        <nav class="sait-navigation">
-          <ul class="site-navigation__list">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="img/logo.svg" alt="Логотип Барбершоп Бородинский" />
+      </a>
+      <nav class="page-header__navigation navigation">
+        <div class="navigation__wrapper">
+          <ul class="navigation__list site-navigation">
             <li class="site-navigation__item">
-              <a href="#">Информация</a>
+              <a class="site-navigation__link" href="#">Информация</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">Новости</a>
+              <a class="site-navigation__link" href="#">Новости</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">Прайс-лист</a>
+              <a class="site-navigation__link" href="#">Прайс-лист</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">Магазин</a>
+              <a class="site-navigation__link" href="#">Магазин</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">Контакты</a>
+              <a class="site-navigation__link" href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
-        <ul class="user-navigation">
-          <li class="user-navigation__item">
-            <a href="#">Войти</a>
-          </li>
-        </ul>
-      </div>
+          <ul class="navigation__list user-navigation">
+            <li class="user-navigation__item">
+              <a class="user-navigation__link" href="#">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="page-main">
@@ -47,24 +47,24 @@
           <li class="features__item">
             <h3 class="features__title">Быстро</h3>
             <p class="features__text">
-              Мы делаем свою работу быстро!<br>
-              два часа пролетят незаметно и вы — счастливый<br>
+              Мы делаем свою работу быстро!<br />
+              два часа пролетят незаметно и вы — счастливый<br />
               обладатель стильной стрижки-минутки!
             </p>
           </li>
           <li class="features__item">
             <h3 class="features__title">Круто</h3>
             <p class="features__text">
-              Забудьте, как вы стриглись раньше.<br>
-              мы сделаем из вас звезду футбола или кино!<br>
+              Забудьте, как вы стриглись раньше.<br />
+              мы сделаем из вас звезду футбола или кино!<br />
               во всяком случае внешне.
             </p>
           </li>
           <li class="features__item">
             <h3 class="features__title">Дорого</h3>
             <p class="features__text">
-              Наши мастера — профессионалы своего дела и<br>
-              не могут стоить дешево. к тому же, разве цена<br>
+              Наши мастера — профессионалы своего дела и<br />
+              не могут стоить дешево. к тому же, разве цена<br />
               не дает определенный статус?
             </p>
           </li>
@@ -76,15 +76,16 @@
           <ul class="news__list">
             <li class="news__item">
               <p class="news__text">
-                Нам наконец завезли ягермайстер! теперь вы можете<br>
+                Нам наконец завезли ягермайстер! теперь вы можете<br />
                 пропустить стаканчик во время стрижки
               </p>
               <time class="news__date" datetime="2021-01-11">11 января</time>
             </li>
             <li class="news__item">
               <p class="news__text">
-                В нашей команде пополнение, борис «бритва» стригунец,<br>
-                обладaтель множества титулов и наград пополнил наши стройные ряды
+                В нашей команде пополнение, борис «бритва» стригунец,<br />
+                обладaтель множества титулов и наград пополнил наши стройные
+                ряды
               </p>
               <time class="news__date" datetime="2021-01-18">18 января</time>
             </li>
@@ -106,16 +107,16 @@
         <section class="contacts">
           <h2 class="contacts__title">Контактная информация</h2>
           <p class="contacts__address">
-            Барбершоп «Бородинский»<br>
-            адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8<br>
+            Барбершоп «Бородинский»<br />
+            адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8<br />
             телефон: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
           </p>
           <p class="contacts__working-hours">
-            время работы:<br>
-            пн—пт: с 10:00 до 22:00<br>
+            время работы:<br />
+            пн—пт: с 10:00 до 22:00<br />
             сб—вс: с 10:00 до 19:00
           </p>
-          <div class=contacts__links>
+          <div class="contacts__links">
             <a class="contacts__map" href="#">Как проехать</a>
             <a class="contacts__feedback" href="#">Обратная связь</a>
           </div>
@@ -125,23 +126,39 @@
           <form class="appointment-form">
             <fieldset>
               <legend>
-                Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+                Укажите желаемую дату и время и мы свяжемся с вами для
+                подтверждения брони
               </legend>
               <p class="appointment-form__item">
                 <label for="data">Дата</label>
-                <input type="text" id="data" name="data" placeholder="08.10.2017">
+                <input
+                  type="text"
+                  id="data"
+                  name="data"
+                  placeholder="08.10.2017"
+                />
               </p>
               <p class="appointment-form__item">
                 <label for="time">Время</label>
-                <input type="text" id="time" name="time" placeholder="10:00">
+                <input type="text" id="time" name="time" placeholder="10:00" />
               </p>
               <p class="appointment-form__item">
                 <label for="client-name">Ваше имя</label>
-                <input type="text" id="client-name" name="client-name" placeholder="Борода">
+                <input
+                  type="text"
+                  id="client-name"
+                  name="client-name"
+                  placeholder="Борода"
+                />
               </p>
               <p class="appointment-form__item">
                 <label for="client-phone">Телефон</label>
-                <input type="tel" id="client-phone" name="client-phone" placeholder="+7 123 456-78-90">
+                <input
+                  type="tel"
+                  id="client-phone"
+                  name="client-phone"
+                  placeholder="+7 123 456-78-90"
+                />
               </p>
             </fieldset>
             <button class="button" type="submit">Отправить</button>
@@ -154,14 +171,18 @@
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты Барбершопа</h2>
         <p class="footer-contacts__text">
-          Барбершоп «Бородинский»<br>
+          Барбершоп «Бородинский»<br />
           адрес: г. Санкт-Петербург, ул. б. Конюшенная, д. 19/8
         </p>
         <a class="footer-contacts__map" href="#">Как нас найти?</a>
-        <a class="footer-contacts__phone" href="tel:+78126660266">ТЕЛЕФОН: +7 (812) 666-02-66</a>
+        <a class="footer-contacts__phone" href="tel:+78126660266"
+          >ТЕЛЕФОН: +7 (812) 666-02-66</a
+        >
       </section>
       <section class="social">
-        <h2 class="visually-hidden">Барбершоп Бородинский в социальных сетях</h2>
+        <h2 class="visually-hidden">
+          Барбершоп Бородинский в социальных сетях
+        </h2>
         <b class="social__slogan">Давайте дружить!</b>
         <ul class="social__list">
           <li class="social__item">

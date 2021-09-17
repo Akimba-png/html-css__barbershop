@@ -3,5 +3,7 @@
 @import "./blocks/common.css";
 
 /* header */
-@import "./blocks/main-header.css";
-@import "./blocks/sait-navigation.css";
+@import "./blocks/page-header.css";
+@import "./blocks/navigation.css";
+@import "./blocks/site-navigation.css";
+@import "./blocks/user-navigation.css";
