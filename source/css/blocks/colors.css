@@ -1,5 +1,12 @@
 :root {
   --text-color: #ffffff;
-  --background-color: #000000;
-  --active-color: #242424;
+  --main-color: #000000;
+  --background-color: #f9f6f3;
+  --active-link-color: #242424;
+  --active-button-color: #663d15;
+  --footer-background-color: #1a1a1a;
+
+  /* auxiliary colors */
+  --line-separator-gradient-color: rgba(197, 194, 192, 0);
+  --line-separator-main-color: #c5c2c0;
 }

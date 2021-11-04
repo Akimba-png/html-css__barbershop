@@ -7,12 +7,12 @@
   </head>
 
   <body class="page-body">
-    <header class="page-header">
+    <header class="page-body__header page-header">
       <a class="page-header__logo">
         <img src="img/logo.svg" alt="Логотип Барбершоп Бородинский" />
       </a>
       <nav class="page-header__navigation navigation">
-        <div class="navigation__wrapper">
+        <div class="navigation__wrapper wrapper">
           <ul class="navigation__list site-navigation">
             <li class="site-navigation__item">
               <a class="site-navigation__link" href="#">Информация</a>
@@ -39,16 +39,16 @@
       </nav>
     </header>
 
-    <main class="page-main">
+    <main class="page-body__main page-main wrapper">
       <h1 class="visually-hidden">Барбершоп Бородинский</h1>
-      <section class="features">
+      <section class="page-main__features features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="features__list">
           <li class="features__item">
             <h3 class="features__title">Быстро</h3>
             <p class="features__text">
-              Мы делаем свою работу быстро!<br />
-              два часа пролетят незаметно и вы — счастливый<br />
+              Мы делаем свою работу быстро! два часа<br />
+              пролетят незаметно и вы — счастливый<br />
               обладатель стильной стрижки-минутки!
             </p>
           </li>
@@ -72,7 +72,7 @@
       </section>
       <div class="page-main__container">
         <section class="news">
-          <h2 class="news__title">Новости</h2>
+          <h2 class="news__title title">Новости</h2>
           <ul class="news__list">
             <li class="news__item">
               <p class="news__text">
@@ -90,12 +90,20 @@
               <time class="news__date" datetime="2021-01-18">18 января</time>
             </li>
           </ul>
-          <a class="news__link button">Все новости</a>
+          <a class="news__link button" href="#">Все новости</a>
         </section>
         <section class="gallery">
-          <h2 class="gallery__title">Фотогалерея</h2>
+          <h2 class="gallery__title title">Фотогалерея</h2>
           <figure class="gallery__image">
-            <a href="#">Изображение</a>
+            <a href="#">
+              <img
+                src="./img/gallery-image-1.jpg"
+                srcset="./img/gallery-image-1@2x.jpg 2x"
+                width="286"
+                height="164"
+                alt="Изображение интерьера салона Барбершоп"
+              />
+            </a>
           </figure>
           <div class="gallery__controls">
             <button class="button">Назад</button>
@@ -105,11 +113,14 @@
       </div>
       <div class="page-main__container">
         <section class="contacts">
-          <h2 class="contacts__title">Контактная информация</h2>
+          <h2 class="contacts__title title">Контактная информация</h2>
           <p class="contacts__address">
             Барбершоп «Бородинский»<br />
             адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8<br />
-            телефон: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
+            телефон:
+            <a class="contacts__phone-link" href="tel:+78126660266"
+              >+7 (812) 666-02-66</a
+            >
           </p>
           <p class="contacts__working-hours">
             время работы:<br />
@@ -117,96 +128,122 @@
             сб—вс: с 10:00 до 19:00
           </p>
           <div class="contacts__links">
-            <a class="contacts__map" href="#">Как проехать</a>
-            <a class="contacts__feedback" href="#">Обратная связь</a>
+            <a class="contacts__map button" href="#">Как проехать</a>
+            <a class="contacts__feedback button" href="#">Обратная связь</a>
           </div>
         </section>
-        <section class="sign-up">
-          <h2 class="sign-up__title">Записаться</h2>
-          <form class="appointment-form">
-            <fieldset>
-              <legend>
-                Укажите желаемую дату и время и мы свяжемся с вами для
-                подтверждения брони
+        <section class="appointment">
+          <h2 class="appointment__title title">Записаться</h2>
+          <form class="appointment__form">
+            <fieldset class="appointment__list">
+              <legend class="appointment__text">
+                Укажите желаемую дату и время и мы свяжемся<br />
+                с вами для подтверждения брони
               </legend>
-              <p class="appointment-form__item">
-                <label for="data">Дата</label>
+              <p class="appointment__item">
+                <label class="appointment__label" for="data">Дата</label>
                 <input
+                  class="appointment__input"
                   type="text"
                   id="data"
                   name="data"
                   placeholder="08.10.2017"
                 />
               </p>
-              <p class="appointment-form__item">
-                <label for="time">Время</label>
-                <input type="text" id="time" name="time" placeholder="10:00" />
-              </p>
-              <p class="appointment-form__item">
-                <label for="client-name">Ваше имя</label>
+              <p class="appointment__item">
+                <label class="appointment__label" for="time">Время</label>
                 <input
+                  class="appointment__input"
+                  type="text"
+                  id="time"
+                  name="time"
+                  placeholder="10:00"
+                />
+              </p>
+              <p class="appointment__item">
+                <label class="appointment__label" for="client-name"
+                  >Ваше имя</label
+                >
+                <input
+                  class="appointment__input"
                   type="text"
                   id="client-name"
                   name="client-name"
                   placeholder="Борода"
                 />
               </p>
-              <p class="appointment-form__item">
-                <label for="client-phone">Телефон</label>
+              <p class="appointment__item">
+                <label class="appointment__label" for="client-phone"
+                  >Телефон</label
+                >
                 <input
+                  class="appointment__input"
                   type="tel"
                   id="client-phone"
                   name="client-phone"
-                  placeholder="+7 123 456-78-90"
+                  placeholder="+7 123 456&ndash;78&ndash;90"
                 />
               </p>
             </fieldset>
-            <button class="button" type="submit">Отправить</button>
+            <button class="appointment__button button" type="submit">
+              Отправить
+            </button>
           </form>
         </section>
       </div>
     </main>
 
     <footer class="page-footer">
-      <section class="footer-contacts">
-        <h2 class="visually-hidden">Контакты Барбершопа</h2>
-        <p class="footer-contacts__text">
-          Барбершоп «Бородинский»<br />
-          адрес: г. Санкт-Петербург, ул. б. Конюшенная, д. 19/8
-        </p>
-        <a class="footer-contacts__map" href="#">Как нас найти?</a>
-        <a class="footer-contacts__phone" href="tel:+78126660266"
-          >ТЕЛЕФОН: +7 (812) 666-02-66</a
-        >
-      </section>
-      <section class="social">
-        <h2 class="visually-hidden">
-          Барбершоп Бородинский в социальных сетях
-        </h2>
-        <b class="social__slogan">Давайте дружить!</b>
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Html Academy в Вконтакте</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://www.facebook.com/htmlacademy">
-              <span class="visually-hidden">Html Academy в Facebook</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="https://www.instagram.com/htmlacademy/">
-              <span class="visually-hidden">Html Academy в instagram</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <div>
-        <p>Разработано</p>
-        <a href="https://htmlacademy.ru/">
-          <span class="visually-hidden">Ссылка на сайт Html Academy</span>
-        </a>
+      <div class="page-footer__wrapper wrapper">
+        <section class="footer-contacts">
+          <h2 class="visually-hidden">Контакты Барбершопа</h2>
+          <p class="footer-contacts__text">
+            Барбершоп «Бородинский»<br />
+            адрес: г. Санкт-Петербург, ул. б. Конюшенная, д. 19/8
+          </p>
+          <a class="footer-contacts__map" href="#">Как нас найти?</a>
+          <a class="footer-contacts__phone" href="tel:+78126660266"
+            >ТЕЛЕФОН: +7 (812) 666-02-66</a
+          >
+        </section>
+        <section class="page-footer__social social">
+          <h2 class="visually-hidden">
+            Барбершоп Бородинский в социальных сетях
+          </h2>
+          <b class="social__slogan">Давайте дружить!</b>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Html Academy в Вконтакте</span>
+                <svg width="27" height="15" aria-hidden="true">
+                  <use xlink:href="./img/icons/sprite.svg#social-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Html Academy в Facebook</span>
+                <svg aria-hidden="true" width="11" height="22">
+                  <use xlink:href="./img/icons/sprite.svg#social-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://www.instagram.com/htmlacademy/">
+                <span class="visually-hidden">Html Academy в instagram</span>
+                <svg aria-hidden="true" width="20" height="20">
+                  <use xlink:href="./img/icons/sprite.svg#social-insta"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="page-footer__copyrights">
+          <p class="page-footer__text">Разработано</p>
+          <a class="button button--copyright" href="https://htmlacademy.ru/" aria-label="Ссылка на сайт Html Academy">
+            Html Academy
+          </a>
+        </div>
       </div>
     </footer>
   </body>

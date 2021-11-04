@@ -1,0 +1,31 @@
+.page-footer {
+  background-image: url("./../../img/footer-background.png");
+  background-color: var(--footer-background-color);
+  min-height: 193px;
+}
+
+@media (min-resolution: 2dppx) {
+  .page-footer {
+    background-image: url("./../../img/footer-background@2x.png");
+  }
+}
+
+.page-footer__wrapper {
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  padding-top: 59px;
+}
+
+.page-footer__social {
+  justify-self: start;
+}
+
+.page-footer__copyrights {
+  justify-self: end;
+  text-align: center;
+}
+
+.page-footer__text {
+  margin-top: 0;
+  margin-bottom: 12px;
+}

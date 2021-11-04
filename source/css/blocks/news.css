@@ -1,0 +1,28 @@
+.news {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.news__title {
+  margin-bottom: 20px;
+}
+
+.news__list {
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  list-style: none;
+}
+
+.news__item {
+  margin-bottom: 24px;
+}
+
+.news__text {
+  margin: 0;
+}
+
+.news__date {
+  text-transform: lowercase;
+}

@@ -1,0 +1,29 @@
+.social {
+  max-width: 350px;
+  text-align: center;
+}
+
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  list-style: none;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 43px;
+  height: 43px;
+  background-color: var(--main-color);
+}
+
+.social__link:hover {
+  color: var(--main-color);
+  background-color: var(--text-color);
+}

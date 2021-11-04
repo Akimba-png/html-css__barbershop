@@ -13,15 +13,16 @@
 }
 
 .user-navigation__link:hover {
-  background-color: var(--active-color);
+  background-color: var(--active-link-color);
 }
 
 .user-navigation__link::before {
   content: "";
   position: absolute;
   top: 28px;
-  left: 28px;
-  width: 14px;
-  height: 14px;
-  background-image: url("./../../img/login.svg");
+  left: 30px;
+  width: 16px;
+  height: 16px;
+  background-image: url("./../../img/icons/sprite.svg#login");
+  background-repeat: no-repeat;
 }

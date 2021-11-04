@@ -1,0 +1,52 @@
+.appointment {
+  padding-top: 22px;
+  padding-left: 90px;
+}
+
+.appointment__title {
+  margin-bottom: 19px;
+}
+
+.appointment__list {
+  display: grid;
+  grid-template-columns: 141px 141px;
+  column-gap: 20px;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  border: none;
+}
+
+.appointment__text {
+  margin-bottom: 13px;
+}
+
+.appointment__item {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.appointment__label {
+  display: block;
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+
+.appointment__input {
+  margin: 0;
+  padding: 10px 15px 11px;
+  width: 141px;
+  box-sizing: border-box;
+  font-family: inherit;
+  border: 2px solid var(--main-color);
+}
+
+.appointment__input:focus {
+  outline: none;
+  border: 2px solid var(--active-button-color);
+}
+
+
+.appointment__button {
+  width: 302px;
+}

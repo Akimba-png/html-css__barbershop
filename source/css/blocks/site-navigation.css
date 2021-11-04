@@ -16,5 +16,5 @@
 }
 
 .site-navigation__link:hover {
-  background-color: var(--active-color);
+  background-color: var(--active-link-color);
 }

@@ -1,0 +1,13 @@
+.footer-contacts__text {
+  margin: 0;
+}
+
+.footer-contacts__map {
+  display: block;
+  text-decoration: underline;
+}
+
+.footer-contacts__phone {
+  display: block;
+  text-decoration: underline;
+}

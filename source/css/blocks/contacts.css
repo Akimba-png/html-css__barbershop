@@ -1,0 +1,28 @@
+.contacts {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.contacts__title {
+  margin-bottom: 22px;
+}
+
+.contacts__phone-link {
+  color: inherit;
+}
+
+.contacts__address {
+  margin-bottom: 21px;
+}
+
+.contacts__working-hours {
+  margin-bottom: 23px;
+}
+
+.contacts__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+}

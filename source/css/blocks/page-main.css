@@ -1,0 +1,36 @@
+.page-main__features {
+  margin-bottom: 58px;
+}
+
+.page-main__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  margin-bottom: 36px;
+  padding-bottom: 48px;
+  color: var(--main-color);
+  background-color: var(--background-color);
+  background-image: url("./../../img/background-layout.png");
+}
+
+.page-main__container::before {
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  width: 2px;
+  height: 278px;
+  background: linear-gradient(
+    180deg,
+    var(--line-separator-gradient-color) 6.25%,
+    var(--line-separator-main-color) 54.17%,
+    var(--line-separator-gradient-color) 93.75%
+  );
+}
+
+@media (min-resolution: 2dppx) {
+  .page-main__container {
+    background-image: url("./../../img/background-layout@2x.png");
+  }
+}

@@ -2,8 +2,26 @@
 @import "./blocks/colors.css";
 @import "./blocks/common.css";
 
+/* body */
+@import "./blocks/page-body.css";
+
 /* header */
 @import "./blocks/page-header.css";
 @import "./blocks/navigation.css";
 @import "./blocks/site-navigation.css";
 @import "./blocks/user-navigation.css";
+
+/* features */
+@import "./blocks/features.css";
+@import "./blocks/page-main.css";
+
+/* sections */
+@import "./blocks/news.css";
+@import "./blocks/gallery.css";
+@import "./blocks/contacts.css";
+@import "./blocks/appointment.css";
+
+/* footer */
+@import "./blocks/page-footer.css";
+@import "./blocks/footer-contacts.css";
+@import "./blocks/social.css";
