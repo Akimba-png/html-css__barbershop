@@ -5,10 +5,31 @@
   line-height: 20px;
 }
 
-.page-header__navigation {
+.page-header--inner {
+  background-color: var(--main-color);
+}
+
+.page-header__container {
   margin-bottom: 60px;
+  background-color: var(--main-color);
+}
+
+.page-header__container--inner {
+  display: flex;
+  margin-bottom: 0;
+  background-color: none;
+
+  justify-content: stretch;
+}
+
+.page-header__navigation--inner {
+  flex-grow: 1;
 }
 
 .page-header__logo {
   align-self: center;
+}
+
+.page-header__logo--inner {
+  padding: 20px 20px;
 }

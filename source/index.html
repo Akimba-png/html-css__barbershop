@@ -11,32 +11,32 @@
       <a class="page-header__logo">
         <img src="img/logo.svg" alt="Логотип Барбершоп Бородинский" />
       </a>
-      <nav class="page-header__navigation navigation">
-        <div class="navigation__wrapper wrapper">
-          <ul class="navigation__list site-navigation">
-            <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Информация</a>
-            </li>
-            <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Новости</a>
-            </li>
-            <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Прайс-лист</a>
-            </li>
-            <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Магазин</a>
-            </li>
-            <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Контакты</a>
-            </li>
-          </ul>
-          <ul class="navigation__list user-navigation">
-            <li class="user-navigation__item">
-              <a class="user-navigation__link" href="#">Войти</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="page-header__container">
+        <nav class="page-header__navigation navigation wrapper">
+            <ul class="navigation__list site-navigation">
+              <li class="site-navigation__item">
+                <a class="site-navigation__link" href="#">Информация</a>
+              </li>
+              <li class="site-navigation__item">
+                <a class="site-navigation__link" href="#">Новости</a>
+              </li>
+              <li class="site-navigation__item">
+                <a class="site-navigation__link" href="#">Прайс-лист</a>
+              </li>
+              <li class="site-navigation__item">
+                <a class="site-navigation__link" href="catalog.html">Магазин</a>
+              </li>
+              <li class="site-navigation__item">
+                <a class="site-navigation__link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <ul class="navigation__list user-navigation">
+              <li class="user-navigation__item">
+                <a class="user-navigation__link" href="#">Вход</a>
+              </li>
+            </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="page-body__main page-main wrapper">
@@ -221,7 +221,10 @@
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://www.facebook.com/htmlacademy">
+              <a
+                class="social__link"
+                href="https://www.facebook.com/htmlacademy"
+              >
                 <span class="visually-hidden">Html Academy в Facebook</span>
                 <svg aria-hidden="true" width="11" height="22">
                   <use xlink:href="./img/icons/sprite.svg#social-fb"></use>
@@ -229,7 +232,10 @@
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://www.instagram.com/htmlacademy/">
+              <a
+                class="social__link"
+                href="https://www.instagram.com/htmlacademy/"
+              >
                 <span class="visually-hidden">Html Academy в instagram</span>
                 <svg aria-hidden="true" width="20" height="20">
                   <use xlink:href="./img/icons/sprite.svg#social-insta"></use>
@@ -240,7 +246,11 @@
         </section>
         <div class="page-footer__copyrights">
           <p class="page-footer__text">Разработано</p>
-          <a class="button button--copyright" href="https://htmlacademy.ru/" aria-label="Ссылка на сайт Html Academy">
+          <a
+            class="button button--copyright"
+            href="https://htmlacademy.ru/"
+            aria-label="Ссылка на сайт Html Academy"
+          >
             Html Academy
           </a>
         </div>

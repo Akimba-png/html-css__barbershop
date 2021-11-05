@@ -15,6 +15,15 @@
   padding: 26px 20px;
 }
 
+.site-navigation__link--active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 40px);
+  height: 4px;
+  background-color: var(--text-color);
+}
+
 .site-navigation__link:hover {
   background-color: var(--active-link-color);
 }
