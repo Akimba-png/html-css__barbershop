@@ -35,3 +35,6 @@
 @import "./blocks/product-group.css";
 @import "./blocks/catalog-form.css";
 @import "./blocks/pagination.css";
+
+/* blank */
+@import "./blocks/page-blank.css";

@@ -1,0 +1,5 @@
+.page-blank {
+  padding-top: 50px;
+  min-height: 450px;
+  color: var(--active-button-color);
+}
