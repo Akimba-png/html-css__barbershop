@@ -1,0 +1,25 @@
+.page-catalog {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 6px;
+  padding-top: 7px;
+  padding-bottom: 35px;
+  color: var(--main-color);
+}
+
+.page-catalog__header {
+  grid-column: 1 / -1;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 42px;
+}
+
+.page-catalog__breadcrumbs {
+  grid-column: 1 / -1;
+  margin-bottom: 45px;
+}
+
+.page-catalog__pagination {
+  grid-column: 1 / -1;
+}

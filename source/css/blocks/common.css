@@ -40,7 +40,7 @@ img {
   display: block;
   padding: 10px 10px;
   box-sizing: border-box;
-  width: 140px;
+  min-width: 140px;
   min-height: 44px;
   text-align: center;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
@@ -63,4 +63,18 @@ img {
 .button--copyright:active {
   color: var(--main-color);
   background-color: var(--text-color);
+}
+
+.button--news {
+  width: 140px;
+}
+
+.button--form {
+  min-width: 112px;
+}
+
+.button--product {
+  padding: 5px 10px;
+  min-width: 78px;
+  min-height: 43px;
 }

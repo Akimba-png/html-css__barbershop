@@ -5,6 +5,9 @@
   --active-link-color: #242424;
   --active-button-color: #663d15;
   --footer-background-color: #1a1a1a;
+  --breadcrumbs-active-color: #aba9a7;
+  --product-price-color: #e5e5e5;
+  --product-shadow-color: rgba(0, 0, 0, 0.2);
 
   /* auxiliary colors */
   --line-separator-gradient-color: rgba(197, 194, 192, 0);

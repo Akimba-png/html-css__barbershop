@@ -25,3 +25,13 @@
 @import "./blocks/page-footer.css";
 @import "./blocks/footer-contacts.css";
 @import "./blocks/social.css";
+
+/* catalog */
+@import "./blocks/page-catalog.css";
+@import "./blocks/breadcrumbs.css";
+@import "./blocks/catalog.css";
+@import "./blocks/product.css";
+@import "./blocks/manufacturer.css";
+@import "./blocks/product-group.css";
+@import "./blocks/catalog-form.css";
+@import "./blocks/pagination.css";

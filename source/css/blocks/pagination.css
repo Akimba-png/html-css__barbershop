@@ -1,0 +1,25 @@
+.pagination__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  min-height: 43px;
+  background-color: var(--main-color);
+}
+
+.pagination__link:not(.pagination__link--active):hover {
+  background-color: var(--active-button-color);
+}
+
+.pagination__link--active {
+  color: var(--main-color);
+  background-color: var(--text-color);
+}
