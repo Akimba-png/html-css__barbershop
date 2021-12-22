@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Барбершоп Бородинский Статик</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
   </head>
 
   <body class="page-body">
@@ -96,13 +96,16 @@
           <h2 class="gallery__title title">Фотогалерея</h2>
           <figure class="gallery__image">
             <a href="blank.html">
-              <img
-                src="./img/gallery-image-1.jpg"
-                srcset="./img/gallery-image-1@2x.jpg 2x"
-                width="286"
-                height="164"
-                alt="Изображение интерьера салона Барбершоп"
-              />
+              <picture>
+                <source type="image/webp" srcset="./img/gallery-image-1.webp 1x, ./img/gallery-image-1@2x.webp 2x">
+                <img
+                  src="./img/gallery-image-1.jpg"
+                  srcset="./img/gallery-image-1@2x.jpg 2x"
+                  width="286"
+                  height="164"
+                  alt="Изображение интерьера салона Барбершоп"
+                />
+            </picture>
             </a>
           </figure>
           <div class="gallery__controls">
