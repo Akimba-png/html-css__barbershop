@@ -1,6 +1,6 @@
 {
-  "name": "barbershop-static",
-  "description": "Тренировочный проект от HTML Academy",
+  "name": "barbershop",
+  "description": "Проект вёрстки по БЭМ - barbershop",
   "version": "1.0.0",
   "private": false,
   "scripts": {
